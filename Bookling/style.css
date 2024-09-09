@@ -1,0 +1,311 @@
+body,
+html {
+    background-color: #171717;
+    color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 150px;
+    background-color: #171717;
+    padding-top: 35px;
+    border-bottom: #c00000 3px solid;
+    z-index: 100;
+}
+
+footer {
+    border-top: #c00000;
+    border-top-style: solid;
+    padding-left: 2%;
+    z-index: 100;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-left: 4%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+footer table{
+    width: 100%;
+}
+tr, td,th {
+    padding: 5px;
+    padding-left: 15px;
+    vertical-align: top;
+}
+
+
+
+.CloseLink {
+    color: white;
+    border-radius: 10px;
+    margin: 7px;
+}
+
+.CloseLink:hover {
+    background-color: #000000;
+    color: white;
+    text-decoration: none;
+
+}
+
+a:hover:not(.active):not(.CloseLink) {
+    background-color: #000000;
+    color: red;
+    text-decoration: none;
+}
+
+
+
+a:hover.active {
+    font: bold;
+    color: #000000;
+    text-decoration: none;
+}
+
+.edit {
+    height: 30px;
+    width: 30px;
+}
+
+.active {
+    background-color: #c00000;
+}
+
+.main {
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 150px;
+    border-left: #c00000;
+    border-right: #c00000;
+    border-left-style: solid;
+    border-right-style: solid;
+    padding: 10px;
+}
+#title {
+    margin-left: 4%;
+}
+
+.book {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.angebot {
+    padding: 1vh;
+    border: solid 3px #ff6600;
+    border-radius: 10px;
+    width: 240px;
+    height: 350px;
+}
+.Kangebot {
+    padding: 1vh;
+    border: solid 3px #ff6600;
+    border-radius: 10px;
+    width: 310px;
+    height: 200px;
+}
+
+.ueberschrift {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.inline {
+    display: flex;
+        align-items: center;
+        justify-content: space-between;
+}
+
+.CreateAccount {
+    margin-top: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-bottom: 20%;
+}
+
+.login {
+    float: right !important;
+    margin-right: 8%;
+    margin-left: auto;
+}
+
+.loginField {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30vh;
+}
+
+.search button {
+    background-color: #c00000;
+    border-radius: 10em;
+    padding: 12px;
+    width: 100px;
+}
+.search input {
+    width: 500px;
+    padding: 10px;
+    padding-left: 20px;
+    border-radius: 2em;
+background-color: #171717;
+border-color: #ff6600;
+color: #c00000;
+}
+.search{
+position: absolute;
+right: 50%;
+transform: translateX(50%);
+text-align: center;
+}
+
+.filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    width: 100%;
+}
+
+.sort {
+    flex: 1;
+    margin: 0 5px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: #000000;
+        color: #c00000;
+        padding: 3px;
+        border: 3px solid #ff6600;
+        font-weight: bold;
+}
+.sort:hover {
+    background-color: #ff6600;
+    color: #000000;
+    border-color: #c00000;
+}
+/* Footer*/
+.tfooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+}
+.links {
+    width: 30%;
+}
+.mitte{
+    width: 40%;
+}
+.rechts{
+    width: 30%;
+}
+/* closelook */
+.row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.nextto{
+    width: 50%;
+}
+.addNew {
+    background-color: #000000;
+    border: 3px solid #ff6600;
+    border-radius: 10px 0px 10px 0px;
+    color: #FFFFFF;
+    width: fit-content;
+}
+.addNew:hover {
+    background-color: #ff6600;
+    color: #000000;
+    border-color: #c00000;
+}
+/*Kunden searchbar*/
+.ksearch {
+   background-color: #000000;
+    border: 3px solid #ff6600;
+    border-radius: 10px;
+    color: #c00000;
+}
+.kundensuche button {
+    background-color: #000000;
+    border: 3px solid #ff6600;
+    border-radius: 10px 0px 10px 0px;
+    color: #FFFFFF;
+    width: fit-content;
+}
+
+#adminpass {
+ border-top: #ff6600;
+}
+.invert{
+    filter: invert(1);
+    border: none;
+    background: none;
+}
+
+.editButton, .deleteButton {
+    border: solid #0099ff; 
+    margin: 10px 10px 0px 0px;
+    /* invertiertes orange */
+    border-radius: 10px 0px 10px 0px;
+}
+
+textarea {
+    resize: none;
+    overflow: hidden;
+    width: 300px;
+    min-height: 50px;
+    max-height: 300px;
+}td input:not([type=radio]), textarea, select {
+    width: 100%;
+    border: 3px solid #ff6600;
+    background-color: #000000;
+    color: #c00000;
+}
+a{
+    text-decoration: none;
+}
+h1 input{
+
+    
+    width: 47%;
+    border: 3px solid #ff6600;
+    background-color: #000000;
+    color: #FFFFFF;
+    
+}
+
